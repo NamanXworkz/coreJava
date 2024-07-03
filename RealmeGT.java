@@ -1,4 +1,4 @@
-class RealmePro{
+class RealmeGT{
 	
 		
 	public static void main(String[] mobile){
@@ -8,15 +8,16 @@ class RealmePro{
 		System.out.println("End of Main");
 	}
 	public static void getDetail(){
-		String os = "Android 14";
-		int price = 24800;
-		String processor = "Qualcomm";
+		String os = "ColorOS";
+		int price = 24000;
+		String processor = "HelioG95";
 		String celluarTechnology = "5G, 4G";
 		
 		System.out.println("The Operating System used is "+os);
 		System.out.println("The price is "+price);
 		System.out.println("The processor used is "+processor);
 		System.out.println("The celluar technology for connectivity is "+celluarTechnology);
+		
 		
 
 }

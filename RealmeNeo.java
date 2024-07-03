@@ -1,5 +1,6 @@
-class RealmePro{
+class RealmeNeo{
 	
+		
 		
 	public static void main(String[] mobile){
 		System.out.println("Start of Main");
@@ -8,9 +9,9 @@ class RealmePro{
 		System.out.println("End of Main");
 	}
 	public static void getDetail(){
-		String os = "Android 14";
-		int price = 24800;
-		String processor = "Qualcomm";
+		String os = "Android 12.0";
+		int price = 25000;
+		String processor = "Meditek";
 		String celluarTechnology = "5G, 4G";
 		
 		System.out.println("The Operating System used is "+os);

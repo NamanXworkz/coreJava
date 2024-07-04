@@ -1,5 +1,5 @@
 class Stationary{
-	public static void main(String[] item){
+	public static void main(String[] itm){
 		System.out.println("Main started");
 		
 		String name = "Signature Store";
@@ -8,7 +8,18 @@ class Stationary{
 		
 		System.out.println("The Shop Name is "+name);
 		System.out.println("***************");
-		System.out.println("Available Items are\n"+items[0]+"\n"+items[1]+"\n"+items[2]+"\n"+items[3]+"\n"+items[4]+"\n"+items[5]+"\n"+items[6]+"\n"+items[7]+"\n"+items[8]+"\n"+items[9]+"\n"+items[10]+"\n"+items[11]+"\n"+items[12]+"\n"+items[13]+"\n"+items[14]);
+		System.out.println("Available Items are");
+
+
+		//for (String item : items){
+		//	System.out.println(item);
+	//	}
+	for (int ref=0 ; ref<items.length;ref++){
+		String value= items[ref];
+		System.out.println(value);
+	}
+		System.out.println("Total Number Of items--"+items.length);
+
 		System.out.println("***************");
 		
 		System.out.println("Main ended");

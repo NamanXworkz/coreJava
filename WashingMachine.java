@@ -2,19 +2,22 @@ class WashingMachine{
 
 	static boolean isWashingMachineOn = false ;
 	
-	public static void turnOn(){
+	public static void OnOrOff(){
 		
 		System.out.println("Start of turnOn method");
 		
 		if(isWashingMachineOn == false){
 			isWashingMachineOn = true;
 			System.out.println("Washing Machine is turned on");
+		}else if(isWashingMachineOn == true){
+			isWashingMachineOn = false;
+			System.out.println("Washing Machine is turned off");
 		}
 		System.out.println("End of turnOn method");
 	return;
 	}
-	
-	public static void turnOff(){
+}
+/*	public static void turnOff(){
 		
 		System.out.println("Start of turnOff method");
 		
@@ -25,4 +28,4 @@ class WashingMachine{
 		System.out.println("End of turnOff method");
 	return;
 	}
-}
+}*/

@@ -1,14 +1,14 @@
-class Camera{
+class Laptop{
 
-	static boolean isCameraOn = false ;
+	static boolean isLaptopOn = false ;
 	
 	public static void turnOn(){
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isCameraOn == false){
-			isCameraOn = true;
-			System.out.println("Camera is turned on");
+		if(isLaptopOn == false){
+			isLaptopOn = true;
+			System.out.println("Laptop is turned on");
 		}
 		System.out.println("End of turnOn method");
 	return;
@@ -18,9 +18,9 @@ class Camera{
 		
 		System.out.println("Start of turnOff method");
 		
-		if(isCameraOn == true){
-			isCameraOn = false;
-			System.out.println("Camera is turned off");
+		if(isLaptopOn == true){
+			isLaptopOn = false;
+			System.out.println("Laptop is turned off");
 		}
 		System.out.println("End of turnOff method");
 	return;
